@@ -28,10 +28,8 @@ final class HealthKit {
 
    private init() {}
 
-    
-
-   // MARK: - Authorization
-
+   
+    // MARK: - Authorization
     
 
    func requestAuthorization(completion: @escaping (Bool) -> Void) {

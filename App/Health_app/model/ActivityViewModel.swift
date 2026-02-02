@@ -16,7 +16,7 @@ final class ActivityViewModel: ObservableObject {
 
      
 
-    @Published private(set) var metrics = ActivityMetrics()
+    @Published var metrics = ActivityMetrics()
 
     @Published var authorized = false
 

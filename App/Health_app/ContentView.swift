@@ -15,7 +15,7 @@ struct ContentView: View {
 
     
 
-   @StateObject private var viewModel = ActivityViewModel()
+    @ObservedObject var viewModel:ActivityViewModel
 
     
 
@@ -88,3 +88,6 @@ struct ContentView: View {
    }
 
 } 
+#Preview {
+    ContentView(viewModel:ActivityViewModel())
+}

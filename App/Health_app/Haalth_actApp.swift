@@ -12,12 +12,12 @@ import SwiftUI
 @main
 
 struct Health_actApp: App {
-
+    @StateObject var activityViewModel = ActivityViewModel()
     var body: some Scene {
 
         WindowGroup {
 
-            ContentView()
+            ContentView(viewModel: activityViewModel)
 
         }
 

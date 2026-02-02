@@ -22,3 +22,4 @@ struct ActivityMetrics {
     var calories: Double = 0
 
 } 
+
