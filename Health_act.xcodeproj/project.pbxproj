@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		122AA0042F29632E007F5334 /* Haalth_act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haalth_act.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		122AA0042F29632E007F5334 /* Health_act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health_act.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -40,7 +40,7 @@
 		122AA0052F29632E007F5334 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				122AA0042F29632E007F5334 /* Haalth_act.app */,
+				122AA0042F29632E007F5334 /* Health_act.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -48,9 +48,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		122AA0032F29632E007F5334 /* Haalth_act */ = {
+		122AA0032F29632E007F5334 /* Health_act */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 122AA00F2F29632F007F5334 /* Build configuration list for PBXNativeTarget "Haalth_act" */;
+			buildConfigurationList = 122AA00F2F29632F007F5334 /* Build configuration list for PBXNativeTarget "Health_act" */;
 			buildPhases = (
 				122AA0002F29632E007F5334 /* Sources */,
 				122AA0012F29632E007F5334 /* Frameworks */,
@@ -63,11 +63,11 @@
 			fileSystemSynchronizedGroups = (
 				12572F992F2A8E7200F30D35 /* App */,
 			);
-			name = Haalth_act;
+			name = Health_act;
 			packageProductDependencies = (
 			);
 			productName = Haalth_act;
-			productReference = 122AA0042F29632E007F5334 /* Haalth_act.app */;
+			productReference = 122AA0042F29632E007F5334 /* Health_act.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 122A9FFF2F29632E007F5334 /* Build configuration list for PBXProject "Haalth_act" */;
+			buildConfigurationList = 122A9FFF2F29632E007F5334 /* Build configuration list for PBXProject "Health_act" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -99,7 +99,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				122AA0032F29632E007F5334 /* Haalth_act */,
+				122AA0032F29632E007F5334 /* Health_act */,
 			);
 		};
 /* End PBXProject section */
@@ -253,7 +253,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow the app to read and write your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow the app update your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -285,7 +286,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_NSHealthShareUsageDescription = "";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Allow the app to read and write your health data.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Allow the app update your health data";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +313,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		122A9FFF2F29632E007F5334 /* Build configuration list for PBXProject "Haalth_act" */ = {
+		122A9FFF2F29632E007F5334 /* Build configuration list for PBXProject "Health_act" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				122AA00D2F29632F007F5334 /* Debug */,
@@ -320,7 +322,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		122AA00F2F29632F007F5334 /* Build configuration list for PBXNativeTarget "Haalth_act" */ = {
+		122AA00F2F29632F007F5334 /* Build configuration list for PBXNativeTarget "Health_act" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				122AA0102F29632F007F5334 /* Debug */,
