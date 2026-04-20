@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		120A87202F9639E1002CE4E8 /* Health_act.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health_act.entitlements; sourceTree = "<group>"; };
 		122AA0042F29632E007F5334 /* Health_act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health_act.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12B22A3B2F68375700943F78 /* Health_act.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health_act.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
