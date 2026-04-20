@@ -13,16 +13,11 @@ import HealthKit
 
 enum HealthKitTypes {
 
-     
-
     static let readTypes: Set<HKObjectType> = [
 
         HKObjectType.quantityType(forIdentifier: .stepCount)!,
-
         HKObjectType.quantityType(forIdentifier: .heartRate)!,
-
         HKObjectType.quantityType(forIdentifier: .distanceWalkingRunning)!,
-
         HKObjectType.quantityType(forIdentifier: .activeEnergyBurned)!
 
     ]

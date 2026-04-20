@@ -12,14 +12,9 @@ import Foundation
 /// Stores daily activity values retrieved from HealthKit
 
 struct ActivityMetrics {
-
     var steps: Double = 0
-
     var heartRate: Double = 0
-
     var distance: Double = 0
-
     var calories: Double = 0
-
 } 
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		120A87202F9639E1002CE4E8 /* Health_act.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Health_act.entitlements; sourceTree = "<group>"; };
 		122AA0042F29632E007F5334 /* Health_act.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Health_act.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -32,6 +33,7 @@
 		122A9FFB2F29632E007F5334 = {
 			isa = PBXGroup;
 			children = (
+				120A87202F9639E1002CE4E8 /* Health_act.entitlements */,
 				12572F992F2A8E7200F30D35 /* App */,
 				122AA0052F29632E007F5334 /* Products */,
 			);
@@ -249,6 +251,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Health_act.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -282,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Health_act.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;

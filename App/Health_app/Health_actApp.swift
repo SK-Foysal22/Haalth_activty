@@ -14,13 +14,9 @@ import SwiftUI
 struct Health_actApp: App {
     @StateObject var activityViewModel = ActivityViewModel()
     var body: some Scene {
-
         WindowGroup {
-
             ContentView(viewModel: activityViewModel)
-
         }
-
     }
 
 }
